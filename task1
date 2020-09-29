@@ -1,0 +1,16 @@
+print("from 1 to 8")
+
+x1 = int(input("column for 1: " ))
+
+x2 = int(input("line for 1: "))
+
+y1 = int(input("column for 2: "))
+
+y2 = int(input("line for 2: "))
+
+if x1 == y1 or x2 == y2:
+   
+    print('YES')
+else:
+   
+    print('NO')
